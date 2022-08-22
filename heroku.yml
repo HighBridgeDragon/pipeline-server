@@ -1,4 +1,13 @@
 build:
+  config:
+    BASE: intel/dlstreamer:2022.1.0-ubuntu20
+    FRAMEWORK: gstreamer
+    PS_MODELS_PATH: models
+    MODELS_COMMAND: copy_models
+    PS_PIPELINES_PATH: pipelines/gstreamer
+    PIPELINES_COMMAND: copy_pipelines
+    FINAL_STAGE: dlstreamer-pipeline-server-service
+    USER: pipeline-server
   docker:
     pipeline-server: docker/Dockerfile
 
