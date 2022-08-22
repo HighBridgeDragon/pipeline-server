@@ -1,0 +1,6 @@
+build:
+  docker:
+    pipeline-server: docker/Dockerfile
+
+run:
+  pipeline-server: ./docker/run.sh
