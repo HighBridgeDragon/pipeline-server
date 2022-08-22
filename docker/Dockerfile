@@ -9,8 +9,6 @@ ARG MODELS_COMMAND=do_not_copy_models
 ARG PIPELINES_COMMAND=do_not_copy_pipelines
 ARG FINAL_STAGE=dlstreamer-pipeline-server-environment
 
-RUN ls 
-
 ########################################################
 # First stage installs dlstreamer-pipeline-server and its dependencies on top of a compatible Media Analytics Base.
 # See documentation for more details on requirements for the Media Analytics Base.
