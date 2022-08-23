@@ -11,5 +11,7 @@ build:
   docker:
     pipeline-server: Dockerfile
 
-run:
-  pipeline-server: bash ./docker/run.sh
+release:
+  image: pipeline-server
+  command: 
+    - ./docker/run.sh
