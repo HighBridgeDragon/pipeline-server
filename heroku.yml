@@ -9,7 +9,7 @@ build:
     FINAL_STAGE: dlstreamer-pipeline-server-service
     USER: pipeline-server
   docker:
-    pipeline-server: docker/Dockerfile
+    pipeline-server: Dockerfile
 
 run:
   pipeline-server: ./docker/run.sh
