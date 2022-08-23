@@ -12,4 +12,4 @@ build:
     pipeline-server: Dockerfile
 
 run:
-  pipeline-server: ./docker/run.sh
+  pipeline-server: bash ./docker/run.sh
